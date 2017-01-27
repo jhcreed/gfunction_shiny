@@ -6,7 +6,7 @@ library(boot)
 library(splines)
 library(DiagrammeR)
 library(DT)
-source('gfunction.R')
+
 
 g.function<-function(dat, interv, outcome,outcome.model,model.t, bootn){
   dat$int<-rep(-1,nrow(dat))
